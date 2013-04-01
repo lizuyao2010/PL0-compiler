@@ -1,0 +1,45 @@
+Error while parsing program. This is what the parser was able to parse:
+Trailing tokens after program.
+    Expected program starting at 'const'.
+        Expected 'periodsym' but got 'begin' while parsing program.
+            block
+                const-declaration
+                    const
+                    constants
+                        constant
+                            identifier
+                                a
+                            =
+                            number
+                                500
+                        ,
+                        constants
+                            constant
+                                identifier
+                                    b
+                                =
+                                number
+                                    2
+                            ,
+                            constants
+                                constant
+                                    identifier
+                                        c
+                                    =
+                                    number
+                                        3
+                    ;
+                var-declaration
+                statement
+
+
+Error while parsing program. This is what the parser was able to parse:
+Trailing tokens after program.
+    Expected program starting at 'begin'.
+        Expected 'periodsym' but got 'begin' while parsing program.
+            block
+                const-declaration
+                var-declaration
+                statement
+
+
